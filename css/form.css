@@ -1,0 +1,47 @@
+/* --------------------------------------------------------------------
+   Form
+-------------------------------------------------------------------- */
+form {
+	overflow: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+form:before, form:after {
+	box-sizing: border-box;
+}
+label {
+	float: left;
+	margin-right: 0.5em;
+	display: block;
+}
+input {
+	width: 175px;
+}
+input[type=submit] {
+	height: 5%;
+	margin-left: 25em;
+	padding: 10px;
+	border-radius: 4px;
+	border-width: 0;
+	color: #FFF;
+	background-color: #FA4057;
+	font-size: 1em;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #FF033A;
+}
+input[type="radio"]{
+    float: left;
+    width: 30px;
+}
+textarea {
+	width: 100%;
+	height: 100px;
+	font-size: 0.5em;
+}
+#mail {
+	display: none;
+}
